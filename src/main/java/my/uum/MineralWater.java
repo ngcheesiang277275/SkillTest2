@@ -5,4 +5,7 @@ public abstract class MineralWater {
     protected int quantity;
 
     public abstract double calculatePrice(int q);
-}
+
+    public abstract int calculateBottle(int bottle);
+
+    }
